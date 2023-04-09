@@ -4,6 +4,7 @@ import 'package:marwanecommerceapp/views/pages/cart_page.dart';
 import 'package:marwanecommerceapp/views/pages/favorites_page.dart';
 import 'package:marwanecommerceapp/views/pages/home_page.dart';
 import 'package:marwanecommerceapp/views/pages/profile_page.dart';
+import 'package:marwanecommerceapp/views/pages/search_page.dart';
 import 'package:marwanecommerceapp/views/pages/shoping_page.dart';
 import 'package:persistent_bottom_nav_bar_v2/persistent-tab-view.dart';
 
@@ -26,7 +27,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     return [
       HomePage(),
       ShoppingPage(),
-      CartPage(),
+      SearchPage(),
       FavoritesPage(),
       ProfilePage(),
     ];

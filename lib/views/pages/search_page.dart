@@ -32,7 +32,8 @@ class _SearchPageState extends State<SearchPage> {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          leading: const BackButton(color: Colors.black),
+          //leading: const BackButton(color: Colors.black),
+          centerTitle: true,
           title: const Text(
             "Visual Search",
             style: TextStyle(color: Colors.black),
